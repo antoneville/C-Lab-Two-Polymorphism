@@ -4,12 +4,11 @@ namespace two_dimensional
 {
     class Line : Shape
     {
-        private int verticeOne;
-        private int verticeTwo;
+ 
         public Line(int verticeOne, int verticeTwo, int x, int y, string color) : base(color)
         {
-            this.verticeOne = verticeOne;
-            this.verticeTwo = verticeTwo;
+            this.VerticeOne = verticeOne;
+            this.VerticeTwo = verticeTwo;
             this.Color = color;
 
             Vertex init = new Vertex(x,y);
@@ -17,28 +16,19 @@ namespace two_dimensional
         }
 
         public int VerticeOne
-        {
-            get { return verticeOne; }
-            set { this.verticeOne = value; }
-        }         
+        { get; set; }         
 
         public int VerticeTwo
-        {
-            get { return verticeTwo; }
-            set { this.verticeTwo = value; }
-        }
+        { get; set; }
 
         public override string ToString()
         {
-            return String.Format("Line Class\nThe Line Vertices are: {0} and {1}", verticeOne, verticeTwo);
+            return String.Format("\nLine Class\nThe Line Vertices are: {0} and {1}", VerticeOne, VerticeTwo);
         }
 
         public override string Translate(ref Vertex useable)
         {
-            double safeTransX = useable.X;
-            double safeTransY = useable.Y;
-
-            return String.Format("Value after Translation of X: {0} \nValue after Translation of Y: {1}", safeTransX, safeTransY);
+            return String.Format("Value after Translation of X: {0} \nValue after Translation of Y: {1}", useable.X, useable.Y);
         }
     }
 }

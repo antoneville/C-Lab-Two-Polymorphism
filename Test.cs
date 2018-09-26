@@ -8,6 +8,8 @@ namespace two_dimensional
         {
         //Creating a Vertex 
             Vertex tu = new Vertex(9, 6);
+            Vertex circvert = new Vertex(5,9);
+            
 
             //Copying Values from Vertex 1 [tu] to Vertex 2 [jf]
             Vertex jf = tu;
@@ -34,6 +36,7 @@ namespace two_dimensional
         
             Circle circobj = new Circle(5, 9, 12, "Pink");
             Console.WriteLine(circobj);
+            Console.WriteLine(circobj.Translate(ref circvert));
             Console.WriteLine(circobj.area());
             //Creating a Line
             Line eline = new Line(6, 8, 2, 5, "Purple");

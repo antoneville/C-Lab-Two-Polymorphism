@@ -4,22 +4,16 @@ namespace two_dimensional
 {
     class Shape 
     {
-        private string color;
-
         public Shape(string color)
         {
-            this.color = color;
+            this.Color = color;
         }
 
         public Shape()
         {
         }
 
-        public string Color 
-        {
-            get {return color;}
-            set {this.color = value;}
-        }
+        public string Color { get; set; }
 
         public override string ToString()
         {
