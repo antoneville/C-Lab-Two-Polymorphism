@@ -1,0 +1,10 @@
+C:\projects\C-Lab-Two-Polymorphism\obj\Debug\netcoreapp2.0\C-Lab-Two-Polymorphism.csproj.CoreCompileInputs.cache
+C:\projects\C-Lab-Two-Polymorphism\obj\Debug\netcoreapp2.0\C-Lab-Two-Polymorphism.AssemblyInfoInputs.cache
+C:\projects\C-Lab-Two-Polymorphism\obj\Debug\netcoreapp2.0\C-Lab-Two-Polymorphism.AssemblyInfo.cs
+C:\projects\C-Lab-Two-Polymorphism\bin\Debug\netcoreapp2.0\C-Lab-Two-Polymorphism.deps.json
+C:\projects\C-Lab-Two-Polymorphism\bin\Debug\netcoreapp2.0\C-Lab-Two-Polymorphism.runtimeconfig.json
+C:\projects\C-Lab-Two-Polymorphism\bin\Debug\netcoreapp2.0\C-Lab-Two-Polymorphism.runtimeconfig.dev.json
+C:\projects\C-Lab-Two-Polymorphism\bin\Debug\netcoreapp2.0\C-Lab-Two-Polymorphism.dll
+C:\projects\C-Lab-Two-Polymorphism\bin\Debug\netcoreapp2.0\C-Lab-Two-Polymorphism.pdb
+C:\projects\C-Lab-Two-Polymorphism\obj\Debug\netcoreapp2.0\C-Lab-Two-Polymorphism.dll
+C:\projects\C-Lab-Two-Polymorphism\obj\Debug\netcoreapp2.0\C-Lab-Two-Polymorphism.pdb
