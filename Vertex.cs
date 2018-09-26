@@ -18,6 +18,10 @@ namespace two_dimensional
             this.y = y;
         }
 
+        public Vertex() 
+        {
+        }
+
         //appropiate properties - getter and setters
         public int X {
             set { this.x = value; }
