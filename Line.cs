@@ -10,9 +10,10 @@ namespace two_dimensional
         {
             this.verticeOne = verticeOne;
             this.verticeTwo = verticeTwo;
+            this.Color = color;
 
             Vertex init = new Vertex(x,y);
-            base.Translate(ref init);
+            this.Translate(ref init);
         }
 
         public int VerticeOne

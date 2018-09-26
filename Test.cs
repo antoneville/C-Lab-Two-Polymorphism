@@ -32,7 +32,9 @@ namespace two_dimensional
             //Testing the Translate Method
             Console.WriteLine(redobj.Translate(ref jf));
         
-
+            Circle circobj = new Circle(5, 9, 12, "Pink");
+            Console.WriteLine(circobj);
+            Console.WriteLine(circobj.area());
             //Creating a Line
             Line eline = new Line(6, 8, 2, 5, "Purple");
             //Testing the ToString [the Class]
