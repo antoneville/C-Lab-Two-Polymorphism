@@ -25,6 +25,8 @@ namespace two_dimensional
 
         public override string Translate(ref Vertex useable)
         {
+            int x = useable.X + (Radius * (int)Math.Cos(X));
+            int y = useable.Y + (Radius * (int)Math.Cos(Y));
             return String.Format("\nValue after Translation of X: {0} \nValue after Translation of Y: {1}", x, y);
         }
 
