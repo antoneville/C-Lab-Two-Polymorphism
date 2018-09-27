@@ -8,13 +8,15 @@ namespace two_dimensional
         {
             this.Radius = radius;
             this.Color = color;
-
-            Vertex init = new Vertex(x,y);
-            this.Translate(ref init);
+            this.X = x;
+            this.Y = y;
         }
 
         //Properties
         public int Radius { get; set; }
+
+        public int X { get; set; }
+        public int Y { get; set; } 
 
         public override string ToString()
         {
@@ -23,7 +25,7 @@ namespace two_dimensional
 
         public override string Translate(ref Vertex useable)
         {
-            return String.Format("\nValue after Translation of X: {0} \nValue after Translation of Y: {1}", useable.X, useable.Y);
+            return String.Format("\nValue after Translation of X: {0} \nValue after Translation of Y: {1}", x, y);
         }
 
         public double area()

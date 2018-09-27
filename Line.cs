@@ -28,7 +28,9 @@ namespace two_dimensional
 
         public override string Translate(ref Vertex useable)
         {
-            return String.Format("Value after Translation of X: {0} \nValue after Translation of Y: {1}", useable.X, useable.Y);
+            int x = (int) (useable.X - VerticeOne);
+            int y = (int) (useable.Y + VerticeTwo);
+            return String.Format("Value after Translation of X: {0} \nValue after Translation of Y: {1}", x, y);
         }
     }
 }
